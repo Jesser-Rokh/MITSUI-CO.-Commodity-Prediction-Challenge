@@ -4,14 +4,6 @@ This repository contains my work for the Mitsui Commodity Prediction Challenge o
 The challenge is to build models that predict future commodity returns using historical data from the London Metal Exchange (LME), Japan Exchange Group (JPX), US equities, and Forex markets. 
 The task requires extracting signals from these heterogeneous datasets to generate stable, long-horizon forecasts — a core problem in systematic trading strategy design and global risk management.
 
-📂 Repository Structure :
-.
-├── commodity_prediction.py   # Main research & training pipeline
-├── submission_notebook.py    # Kaggle submission server (predict function)
-├── models/                   # Trained LightGBM models (stored on Kaggle / local)
-├── top_features.json         # Selected features used in inference
-└── README.md                 # This file
-
 🚀 Approach
 
 1. Data Preprocessing and EDA
